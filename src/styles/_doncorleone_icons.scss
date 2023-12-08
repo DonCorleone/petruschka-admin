@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'doncorleone-icons';
+    src:  url('../assets/fonts/doncorleone-icons.eot?uzso5b');
+    src:  url('../assets/fonts/doncorleone-icons.eot?uzso5b#iefix') format('embedded-opentype'),
+      url('../assets/fonts/doncorleone-icons.ttf?uzso5b') format('truetype'),
+      url('../assets/fonts/doncorleone-icons.woff?uzso5b') format('woff'),
+      url('../assets/fonts/doncorleone-icons.svg?uzso5b#doncorleone-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  .doncorleone-icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'doncorleone-icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .doncorleone-address:before {
+    content: "\e900";
+  }
+  .doncorleone-delivery:before {
+    content: "\e901";
+  }
+  .doncorleone-express-mail:before {
+    content: "\e902";
+  }
+  .doncorleone-post-office:before {
+    content: "\e903";
+  }
+  
